@@ -10,6 +10,12 @@ print('4. Exit')
 
 value = int(input('Enter your choice: '))
 
+while value not in range(1, 5):
+
+	print('Invalid input')
+
+	value = int(input('Enter your choice: '))
+
 while True:
 
 	if value == 1:
